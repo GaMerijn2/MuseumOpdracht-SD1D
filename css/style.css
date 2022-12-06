@@ -1,0 +1,107 @@
+
+*{
+    padding:0;
+    margin:0;
+    box-sizing: border-box;
+}
+body{
+    text-align: center;  
+    font-size: 20px;
+    background-color: rgb(27, 27, 27);
+    font-family: sans-serif;
+}
+article{
+    width: 80vw;
+    background-color: rgb(17, 17, 17);
+    margin: 0 auto;
+    padding:40px;
+} 
+
+
+
+
+h1{
+    font-family: sans-serif;
+    color: aliceblue;
+    offset: 100px 200px;
+}
+img{  
+    max-width: 100%;  
+    height: auto;   
+}  
+p{
+    margin-bottom: 40px;
+    color: rgb(193, 251, 254);
+}
+
+
+
+
+.borderImage{
+    border: 10px solid rgb(46, 46, 46);
+    padding: 2px;
+}
+
+
+
+.museumInfo{
+    font-style: italic;
+    margin-left: 150px;
+    margin-right: 150px;
+    padding-top: 55px;
+}
+
+
+
+.minigameText{
+    color: rgb(255, 209, 57);
+    padding-top: 30px;
+}
+.minigameText1{
+    color: rgb(193, 251, 254);
+    padding-top: 10px;
+}
+.minigame{
+    height: 150px;
+    width: 350px;
+    margin: 40px;
+    border: 3px solid white;
+    border-radius: 10px;
+    color: aliceblue;
+}
+.flex-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding-bottom: 30px;
+}
+
+
+
+.geschiedenisText{
+    color: rgb(234, 167, 32);
+    margin-left: 200px;
+    margin-right: 200px;
+}
+.geschiedenisText1{
+    color: rgb(193, 251, 254);
+    margin-left: 200px;
+    margin-right: 200px;
+    text-align: center;
+    padding: 5px; 
+    border-top: 4px solid rgb(193, 251, 254); 
+}
+.geschiedenisText2{
+    color: rgb(193, 251, 254);
+    margin-left: 250px;
+    margin-right: 250px;
+    text-align: center;
+    padding:px;  
+    border-bottom: 4px solid rgb(193, 251, 254);
+}
+
+.Naam{
+    padding-top: 100px;
+    font-size: 10px;
+    
+}
