@@ -2,26 +2,94 @@
 <html lang="nl">
     
 <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="css/style.css">
     <title>Eindopdracht Merijn Florie & Amin Oulkadi  |  Nationaal Video-Game Museum</title>
+    <style>
+        div.sticky {
+          position: -webkit-sticky;
+          position: sticky;
+          top: 0;
+          padding: 10px;
+          font-size: 20px;
+        }
+    </style>
 </head>
     <body>
+        <div id="home">
         <article> 
-            <h1>
-                Overzicht en wat is er te doen?
-            </h1>
-            <div>
-            <img class="borderImage" src="img/Nationaal-Videogame-Museum-Zoetermeer-www.mamasjungle.nl_.jpg" alt="Vooringang Museum">
+            <body background="img/background wall.jpg"></body>
+            <div class="sticky">
+                <div class="topnav">
+                    <a class="active" href="#home">Home</a>
+                    <a href="#reviews">Reviews</a>
+                    <a href="#Geschiedenis">Geschiedenis</a>
+                    <a class="logoNav"><img src="img/Logo Museum.webp" alt="Logo van het Videogame Museum"
+                        width="70" 
+                        height="50"></a>
+                    <a href="#openingstijden">Openingstijden</a>
+                    <a href="#contact">Contact</a>
+                </div>
             </div>
-            <body background="img/Huiskamerje.jpeg"></body>
-            <p class = museumInfo>
-                Het Nationaal Videogame Museum is 'the place to be' voor iedereen die meer wil weten (én beleven) over de geschiedenis, 
-                maatschappelijke en culturele kant van videogames. 
-                Het museum laat haar bezoekers ook de games van morgen ervaren. 
-                Gamers van jong tot oud zijn welkom om te spelen, 
-                ontdekken, 
-                leren en ervaringen online te delen.
-            </p>
+            <div>
+                <img class="logo" src="img/Logo Museum.webp" alt="Logo van het Videogame Museum">
+                    <p class = museumInfo>
+                        Het Nationaal Videogame Museum is 'the place to be' voor iedereen die meer wil weten (én beleven) over de geschiedenis, 
+                        maatschappelijke en culturele kant van videogames. 
+                        Het museum laat haar bezoekers ook de games van morgen ervaren. 
+                        Gamers van jong tot oud zijn welkom om te spelen, 
+                        ontdekken, 
+                        leren en ervaringen online te delen.
+                    </p>
+            </div>
+            <div>
+                <h2>
+                    Overzicht en wat is er te doen?
+                </h2>
+                <div>
+                <img class="borderImage" src="img/Nationaal-Videogame-Museum-Zoetermeer-www.mamasjungle.nl_.jpg" alt="Vooringang Museum">
+                </div>
+            </div>
+            <div id="openingstijden">
+                <h3 class="openingstijden-text">
+                    Openingstijden
+                </h3>
+                <div class="flex-container-openingstijden">
+                    <div class="openingstijden">
+                        <p>
+                            Tijdslots 
+                            ​<br>
+                            We werken met vaste tijdslots in het museum:
+                            ​<br>
+                            ​<br>
+                            Ma: Gesloten
+                            ​<br>
+                            Di: Gesloten
+                            ​<br>
+                            Wo: 10.00-12.00 | 12.00-14.00 | 14.00-16.00 | 16.00-18.00 uur
+                            ​<br>
+                            Do: 10.00-12.00 | 12.00-14.00 | 14.00-16.00 | 16.00-18.00 uur
+                            ​<br>
+                            Vr: 10.00-12.00 | 12.00-14.00 | 14.00-16.00 | 16.00-18.00 | 18.00-21.00 uur
+                            ​<br>
+                            Za: 10.00-12.00 | 12.00-14.00 | 14.00-16.00 | 16.00-18.00 uur
+                            ​<br>
+                            Zo: 12.00-14.00 | 14.00-16.00 | 16.00-18.00 uur
+                            ​<br>
+                            <br>
+                            In de schoolvakanties (regio Midden) zijn wij ook op maandag en dinsdag geopend.
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div id="reviews">
+                <h4 class="reviewsText1">
+                    Reviews
+                </h4>
+                <p class="reviewsText2">
+                    Hier komen drie reviews.
+                </p>
+            </div>
             <h2 class = minigameText>
                 Minigame
             </h2>
@@ -30,11 +98,11 @@
             </p>
 
             <div class="flex-container">
-                <div class = "minigame">Minigame</div>
-                <div class = "minigame">Minigame2</div>
+                <div class = "minigame"><img class = "pong" src="img/Space Invaders.jpg" alt="Space-Invaders Minigame"></div>
+                <div class = "minigame"><img class = "space-invaders" src="img/pong.jpg" alt="Pong Minigame"></div>
             </div>
             
-            <h3 class = geschiedenisText>
+            <h3 id="Geschiedenis" class = geschiedenisText>
                 Geschiedenis van het Museum
             </h3>
             <p class = geschiedenisText1>
@@ -45,14 +113,30 @@
                 Toen ook dit pand leeggeruimd moest worden, 
                 werd de toenmalige collectie van 10 arcade videogames met wat reserveonderdelen opgeslagen in een oude showroom voor klassieke auto’s. 
                 Omdat daar geen ruimte was om de kasten te renoveren of te bespelen werd uitgekeken naar passende ruimte.
-                <!--<br>-->
             </p>
+            
             <p class = geschiedenisText2>
                 Die werd in 2011 gevonden aan de Cobaltstraat in Zoetermeer. 
                 Daar besloot Hasan om met 4 vrienden de locatie te huren en kon het avontuur groeien tot een eigen ontmoetingsplek om hun hobby uit te oefenen en lekker te ontspannen met een game.
             </p>
-            <p class = "Naam">
-                Website gemaakt door: Merijn Florie.
-            </p>
+
+            <div id="contact" class="contact">
+                <div class="contact-info">
+                    <p>E-mail:</p><a class="email" href="mailto:mail@example.com">mail@example.com</a>
+                    <br>
+                    <p>Telefoon:</p><a class="phone" href="call:01-23456789">01-23456789</a>
+                    <a class="logoContact"><img src="img/Logo Museum.webp" alt="Logo van het Videogame Museum"
+                        width="70" 
+                        height="50">
+                    </a>
+                </div>    
+                
+                    <p class = "Naam">
+                        Website gemaakt door: Merijn Florie en Amin Oulkadi
+                    </p>
+            </div>
+
+            
         </article>
+        </div>
     </body>
