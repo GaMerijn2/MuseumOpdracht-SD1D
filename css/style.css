@@ -117,30 +117,34 @@ h2{
 .overzicht-image{
     border: 10px solid rgb(46, 46, 46);
     padding: 2px;
+    border-radius: 10px;
 }
 .flex-container-overzicht{
     display: flex; 
     flex-direction: row;
-    height: 800px;
-    padding-top: 20px;
+    align-items: center, top;
+    height: 450px;
+    padding-top: 40px;
+    margin: 0px 100px 0px 100px;
 }
 .overzicht-text1{
     border-top: 3px solid rgb(68, 68, 68);
     color: rgb(193, 251, 254);
     background-color: rgb(29, 29, 29);
-    border-radius: 100px;
+    border-radius: 50px;
     margin-left: 50px;
     margin-right: 100px;
     padding: 10px;
-    height: 400px;
+    height: 350px;
     width: 400px;
-    font-size: 17px;
+    font-size: 16px;
     padding: 25px;
 }
 .flex-container-overzicht-images1{
     height: 200px;
     width: 200px;
     display: flex;
+    padding-bottom: 35px;
     justify-content: none;
     align-items: none;
     flex-direction: row;
@@ -149,6 +153,7 @@ h2{
     height: 200px;
     width: 200px;
     display: flex;
+    padding-bottom: 35px;
     flex-direction: row;
     justify-content: none;
     align-items: none;
@@ -171,8 +176,8 @@ h2{
 }
 .overzicht-images{
     height: 150px;
-    width: 200px;
-    border-radius: 30px;
+    width: 250px;
+    border-radius: 25px;
 }
 
 .minigameText{
