@@ -1,19 +1,29 @@
 
+@media screen and (max-width:600px){
+
+}
+
+
 *{
     padding:0;
     margin:0;
     box-sizing: border-box;
 }
-
-html {
+html{
     scroll-behavior: smooth;
-   }
-   
-   a {
+} 
+a{
     text-decoration: none;
     color: black;
-   } 
-
+} 
+img{  
+    max-width: 80%;  
+    height: auto;   
+}  
+p{
+    margin-bottom: 0px;
+    color: rgb(193, 251, 254);
+}
 body{
     text-align: center;  
     font-size: 20px;
@@ -25,8 +35,7 @@ article{
     background-color: rgb(17, 17, 17);
     margin: 0 auto;
     padding:40px;
-} 
-
+}
 div.sticky {
     position: -webkit-sticky;
     position: sticky;
@@ -34,6 +43,8 @@ div.sticky {
     padding: 10px;
     font-size: 20px;
 }
+
+
 
 
 /* Navigation bar*/
@@ -68,8 +79,11 @@ div.sticky {
 
 .logoNav{
     background-color: none;
-    border-radius: 30px;
+    border-radius: 30px; 
 }
+
+
+
 
 .logo{
     height: auto;
@@ -85,24 +99,8 @@ h2{
     offset: 100px 200px;
     margin-top: 10px;
     padding-bottom: 15px;
-
-}
-img{  
-    max-width: 80%;  
-    height: auto;   
-}  
-p{
-    margin-bottom: 0px;
-    color: rgb(193, 251, 254);
 }
 
-
-
-
-.borderImage{
-    border: 10px solid rgb(46, 46, 46);
-    padding: 2px;
-}
 
 
 
@@ -116,7 +114,66 @@ p{
     padding-bottom: 80px;
 }
 
-
+.overzicht-image{
+    border: 10px solid rgb(46, 46, 46);
+    padding: 2px;
+}
+.flex-container-overzicht{
+    display: flex; 
+    flex-direction: row;
+    height: 800px;
+    padding-top: 20px;
+}
+.overzicht-text1{
+    border-top: 3px solid rgb(68, 68, 68);
+    color: rgb(193, 251, 254);
+    background-color: rgb(29, 29, 29);
+    border-radius: 100px;
+    margin-left: 50px;
+    margin-right: 100px;
+    padding: 10px;
+    height: 400px;
+    width: 400px;
+    font-size: 17px;
+    padding: 25px;
+}
+.flex-container-overzicht-images1{
+    height: 200px;
+    width: 200px;
+    display: flex;
+    justify-content: none;
+    align-items: none;
+    flex-direction: row;
+}
+.flex-container-overzicht-images2{
+    height: 200px;
+    width: 200px;
+    display: flex;
+    flex-direction: row;
+    justify-content: none;
+    align-items: none;
+}
+.flex-container-overzicht-images3{
+    height: 200px;
+    width: 200px;
+    display: flex;
+    justify-content: none;
+    align-items: none;
+    flex-direction: column;
+}
+.flex-container-overzicht-images4{
+    height: 200px;
+    width: 200px;
+    display: flex;
+    justify-content: none;
+    align-items: none;
+    flex-direction: column;
+}
+.overzicht-images{
+    height: 150px;
+    width: 200px;
+    border-radius: 30px;
+}
 
 .minigameText{
     color: rgb(234, 167, 32);
@@ -145,9 +202,31 @@ p{
     display: flex;
     flex-direction:row;
     justify-content: center;
-    padding-bottom: 30px;
-    
+    padding-bottom: 30px;  
 }
+.review{
+    border: 3px solid white;
+    height: 250px;
+    width: 350px;
+    border-radius: 50px 50px 0px 50px;
+    margin: 60px;
+}
+.flex-container-review{
+    display: flex;
+    flex-direction:row;
+    justify-content: center;
+    padding-bottom: 30px;  
+}
+.reviewsText1{
+    font-size: 2vw;
+    color: rgb(234, 167, 32);
+    padding: 15px;
+}
+.reviewsText2{
+    font-size: 1.2vw;
+    margin-bottom: 15px;
+}
+
 
 
 
@@ -172,18 +251,10 @@ div.openingstijden{
 }
 .openingstijden-text{
     font-size: 2vw;
-    margin-bottom: 70px;
+    margin-bottom: 0px;
 }
 
-.reviewsText1{
-    font-size: 2vw;
-    color: rgb(234, 167, 32);
-    padding: 15px;
-}
-.reviewsText2{
-    font-size: 1.2vw;
-    margin-bottom: 100px;
-}
+
 
 
 .geschiedenisText{
@@ -213,6 +284,9 @@ div.openingstijden{
     border-bottom: 4px solid rgb(193, 251, 254);
 }
 
+
+
+
 .contact{
     display: flex;
     flex-direction:column;
@@ -226,8 +300,8 @@ div.openingstijden{
     padding: 20px;
   }
   
-  /* Style the links inside the navigation bar */
-  .contact a {
+/* Style the links inside the navigation bar */
+.contact a {
     float: center;
     color: #f2f2f2;
     text-align: center;
@@ -236,21 +310,17 @@ div.openingstijden{
     font-size: 20px;
     width: 100%;
     height: 40px;
-  }
-
+}
 .email{
     color:white;
 }
-
 .contact-info{
     display: flex;
     justify-content: left;
 }
-
 .logoContact{
     background-color: none;
 }
-
 .Naam{
     display: flex;
     font-size: 10px;
