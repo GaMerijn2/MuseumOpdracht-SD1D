@@ -36,6 +36,12 @@ article{
     margin: 0 auto;
     padding:40px;
 }
+figcaption{
+    text-align: left;
+    margin-left: 150px;
+    color: rgb(188, 188, 188); 
+    font-style: italic;
+}
 div.sticky {
     position: -webkit-sticky;
     position: sticky;
@@ -69,6 +75,7 @@ div.sticky {
   .topnav a:hover {
     background-color: rgb(41, 48, 57);
     color: rgb(255, 255, 255);
+    border-bottom: 3px solid white;
   }
   
   /* Add a color to the active/current link */
