@@ -1,8 +1,4 @@
 
-@media screen and (max-width:600px){
-
-}
-
 
 *{
     padding:0;
@@ -34,32 +30,39 @@ article{
     width: 80vw;
     background-color: rgb(17, 17, 17);
     margin: 0 auto;
-    padding:40px;
+    padding:10px;
 }
 figcaption{
     text-align: left;
-    margin-left: 150px;
     color: rgb(188, 188, 188); 
     font-style: italic;
+    text-align: center;
+    font-size: 16px;
+    margin-bottom: 10px;
 }
+
+
 div.sticky {
     position: -webkit-sticky;
     position: sticky;
     top: 0;
-    padding: 10px;
     font-size: 20px;
 }
-
-
-
-
+.logoNav{
+    width: 25px;
+    height: auto;
+}
+a.logoNav{
+    padding:10px;
+}
 /* Navigation bar*/
 /* Add a black background color to the top navigation */
 .topnav {
     background-color: #151224;
     overflow: hidden;
-    padding: 20px;
+    padding: 15px;
     border-radius: 10px;
+    width: 100%;
   }
   
   /* Style the links inside the navigation bar */
@@ -69,7 +72,7 @@ div.sticky {
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
-    font-size: 20px;
+    font-size: 16px;
   }
   
   /* Change the color of links on hover */
@@ -85,19 +88,12 @@ div.sticky {
     color: white;
   }
 
-.logoNav{
-    background-color: none;
-    border-radius: 30px; 
-}
-
 
 
 
 .logo{
     height: auto;
-    width: auto;
-    margin-bottom: px;
-    width: 600px;
+    width: 400px;
     padding-bottom: 15px;
     font-size: 2vw;
 }
@@ -128,6 +124,10 @@ h2{
     border: 10px solid rgb(46, 46, 46);
     padding: 2px;
     border-radius: 10px;
+    margin-left: 100px;
+    margin-right: 100px;
+
+
 }
 .flex-container-overzicht{
     display: flex; 
@@ -136,18 +136,19 @@ h2{
     height: 450px;
     padding-top: 40px;
     margin: 0px 100px 0px 100px;
+    flex-wrap: wrap;
 }
 .overzicht-text1{
     border-top: 3px solid rgb(68, 68, 68);
     color: rgb(193, 251, 254);
     background-color: rgb(29, 29, 29);
     border-radius: 50px;
-    margin-left: 50px;
-    margin-right: 100px;
+
+    margin-right: 50px;
     padding: 10px;
     height: 350px;
     width: 400px;
-    font-size: 16px;
+    font-size: 15px;
     padding: 25px;
 }
 .flex-container-overzicht-images1{
@@ -322,7 +323,7 @@ div.openingstijden{
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
-    font-size: 20px;
+    font-size: 15px;
     width: 100%;
     height: 40px;
 }
@@ -331,7 +332,9 @@ div.openingstijden{
 }
 .contact-info{
     display: flex;
-    justify-content: left;
+    flex-direction: column;
+    justify-content: start;
+    text-align: start;
 }
 .logoContact{
     background-color: none;
@@ -343,3 +346,161 @@ div.openingstijden{
     justify-content: flex-start;
     margin-top: 50px;
 }
+  @media screen and (max-width: 1016px) {
+    article {
+      width: 85vw;
+      padding: 5px;
+    }
+    .logo{
+        width: 50%;
+    }
+    div.topnav{
+        margin:10px;
+        padding:15px;
+    }
+    .topnav a {
+        float: center;
+        color: #f2f2f2;
+        text-align: center;
+        padding: 10px;
+        text-decoration: none;
+        font-size: 15px;
+      }
+    .logoNav{
+        width: 20px;
+        height: auto;
+    }
+    div.sticky{
+        padding: none;
+    }
+    .flex-container-overzicht{
+        margin: 10px;
+        padding: 20px 0px 0px
+    }
+    .overzicht-text1{
+        padding: 15px;
+        font-size: 13px;
+        margin: 0px 15px 0px 0px;
+        height: 70%;
+    }
+    .museumInfo{
+        padding: 5px 0px 20px 0px
+    }
+    .contact {
+        font-size: 15px;
+    }
+    .contact a{
+        font-size: 14px;
+        text-align: start;
+    }
+    .contact-info{
+        display: flex;
+        flex-direction: column;
+        justify-content: start;
+        text-align: start;
+    }
+    .Naam{
+        margin: 20px 0px 0px 0px;
+    }
+    div.topnav{
+        padding:13px;
+        margin: 2px;
+      }
+  }
+  @media screen and (max-width: 870px) {
+    .topnav a {
+        float: center;
+        color: #f2f2f2;
+        text-align: center;
+        padding: 5px;
+        text-decoration: none;
+        font-size: 15px;
+      }
+      div.topnav{
+        padding:13px;
+        margin: 2px;
+      }
+  }
+  @media screen and (max-width: 760px) {
+    .topnav a {
+        float: center;
+        color: #f2f2f2;
+        text-align: center;
+        padding: 5px;
+        text-decoration: none;
+        font-size: 14px;
+      }
+      div.topnav{
+        padding:13px;
+        margin: 2px;
+      }
+  }
+  @media screen and (max-width: 720px) {
+    .topnav a {
+        float: center;
+        color: #f2f2f2;
+        text-align: center;
+        padding: 5px;
+        text-decoration: none;
+        font-size: 13px;
+      }
+      div.topnav{
+        padding: 10px;
+        margin: 2px;
+      }
+  }
+  @media screen and (max-width: 680px) {
+    .topnav a {
+        float: center;
+        color: #f2f2f2;
+        text-align: center;
+        padding: 5px;
+        text-decoration: none;
+        font-size: 13px;
+      }
+      div.topnav{
+        padding:13px;
+        margin: 2px;
+      }
+  }
+
+  @media screen and (max-width: 665px) {
+    article {
+      width: 90vw;
+    }
+    body{
+        background-color: #151224;
+    }
+    .logo{
+        width: 50%;
+        height: 50%;
+    }
+    .topnav a {
+        float: center;
+        color: #f2f2f2;
+        text-align: center;
+        padding: 5px;
+        text-decoration: none;
+        font-size: 13px;
+      }
+  }
+  @media screen and (max-width: 628px) {
+    article {
+      width: 90vw;
+    }
+    body{
+        background-color: #151224;
+    }
+    .logo{
+        width: 50%;
+        height: 50%;
+    }
+    .topnav a {
+        float: center;
+        color: #f2f2f2;
+        text-align: center;
+        padding: 5px;
+        text-decoration: none;
+        font-size: 12px;
+      }
+  }
