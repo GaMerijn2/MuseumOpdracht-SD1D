@@ -2,52 +2,29 @@
 <html lang="nl">
     
 <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="css/style.css">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Nationaal Video-Game Museum  |  Eindopdracht Merijn Florie & Amin Oulkadi</title>
+    <title>Js-Game</title>
 </head>
     <body background="img/background wall.jpg">
         <div id="home">
         <article> 
             <div class="sticky">
-                <div class="sticky">
-                    <div class="topnav">
-                        <a href="#home">Naar Boven</a>
-                        <a class="active" href="index.html">Home</a>
-                        <a href="Game.html">Reviews en Minigame</a>
-                        <a href="geschiedenis.html">Geschiedenis</a>
-                        <a href="Openingstijden.html">Openingstijden</a>
-                        <a href="#contact">Contact</a>
-                    </div>
+                <div class="topnav">
+                    <a href="#home">Naar Boven</a>
+                    <a class="active" href="index.html">Home</a>
+                    <a href="Game.html">Reviews en Minigame</a>
+                    <a href="geschiedenis.html">Geschiedenis</a>
+                    <a href="Openingstijden.html">Openingstijden</a>
+                    <a href="#contact">Contact</a>
                 </div>
             </div>
-
-            <section id="reviews">
-                <h4 class="reviewsText1">
-                    Reviews
-                </h4>
-                <p class="reviewsText2">
-                    Hier komen reviews.
-                </p>
-                <div class="flex-container-review">
-                    <div class = "review"></div>
-                    <div class = "review"></div>
-                </div>
-            </section>
-            <section>
-                <h2 class = minigameText>
-                    Minigame
-                </h2>
-                <p class = minigameText1>
-                    Hier komt de minigame: Space invaders.
-                </p>
-                <div class="flex-container">
-                    <div class = "minigame"><img class = "pong" src="img/Space Invaders.jpg" alt="Space-Invaders Minigame"></div>
-
-                </div>
-            </section>
-
+            <div class="Game">
+                <script src="Game.js" defer></script>
+                <canvas class="canvas" id="canvas" width="300px" height="300px"></canvas>
+            </div>
 
             <div id="contact" class="contact">
                 <div class="contact-info">
