@@ -1,5 +1,5 @@
 
-const canvas = document.getElementById("canvas");
+const canvas = document.getElementById("c");
 const c = canvas.getContext("2d");
 
 canvas.width = innerWidth
@@ -21,13 +21,13 @@ class Player {
         const image = new Image()
         image.src = 'img/Ship-Player.png'
         image.onload = () => {
-            const scale = 1.5;//0.15
+            const scale = 1;//0.15
             this.image = image;
             this.width = image.width * scale
             this.height = image.height * scale
             this.position = {
                 x : canvas.width / 2 - this.width / 2,
-                y : canvas.height - this.height - 40
+                y : canvas.height - this.height - 20
             }
             
 start()
